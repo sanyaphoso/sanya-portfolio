@@ -1,0 +1,31 @@
+  /* จัดข้อความให้อยู่ตรงกลางของหน้าจอ */
+.loading-text {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;  /* จัดให้อยู่ตรงกลางในแนวนอน */
+    align-items: center;      /* จัดให้อยู่ตรงกลางในแนวตั้ง */
+    height: 100vh;            /* เต็มความสูงของหน้าจอ */
+    width: 100vw;             /* เต็มความกว้างของหน้าจอ */
+    overflow: hidden;         /* ป้องกันการขยายขอบเขตของ container */
+    transition: font-size 1s ease, opacity 1s ease;
+  }
+  
+  @keyframes expandText {
+    0% {
+      font-size: 2rem; /* ขนาดเริ่มต้น */
+      opacity: 1; /* เริ่มต้นด้วยการมองเห็น */
+    }
+    100% {
+      font-size: 90rem; /* ขยายขนาดฟอนต์ */
+      opacity: 0; /* ค่อยๆ จางหายไป */
+    }
+  }
+  
+  /* เมื่อข้อความพร้อมที่จะขยาย */
+  .loading-text.expanded {
+    animation: expandText 1s forwards ease-in-out;
+  }
+  
+  
+  

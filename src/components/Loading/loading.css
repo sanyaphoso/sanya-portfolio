@@ -1,0 +1,26 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #000; Background color */
+    overflow: hidden; /* Prevent overflow while scaling */
+  }
+  
+  .loading-text {
+    /* color: #fff; Text color */
+    font-size: 5vw; /* Start font size */
+    animation: expandText 2s ease-in-out forwards; /* Animation duration */
+  }
+  
+  @keyframes expandText {
+    0% {
+      font-size: 5vw; /* Starting size */
+      transform: scale(1); /* No scaling */
+      opacity: 1; /* Fully visible */
+    }
+    100% {
+      transform: scale(50); /* Reduced scale for expansion */
+      opacity: 0; /* Fade out */
+    }
+  }

@@ -1,0 +1,32 @@
+.loading-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-size: 3rem;
+    transition: font-size 0.5s ease;
+  }
+  
+  .loading-text {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+  }
+  
+  .loading-screen.loaded .loading-text {
+    transform: scale(5); /* ขยายข้อความให้เต็มหน้าจอ */
+  }
+
+  @keyframes expandText {
+    0% {
+      font-size: 5vw; /* Starting size */
+      transform: scale(1); /* No scaling */
+      opacity: 1; /* Fully visible */
+    }
+    100% {
+      transform: scale(50); /* Reduced scale for expansion */
+      opacity: 0; /* Fade out */
+    }
+  }
+  
