@@ -1,14 +1,14 @@
-## Sanya's Portfolio
+# Sanya's Portfolio
 
 ✨ A personal portfolio website built with React.
 Showcasing projects, skills, and experiences.
 
-# 🚀 Tech Stack
+## 🚀 Tech Stack
 - React.js
 - Material UI
 - Framer Motion
 
-# 🌐 Live Website
+## 🌐 Live Website
 https://sanyaphoso.github.io/sanya-portfolio
 
 ## Getting Started with Create React App
