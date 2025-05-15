@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sanya-portfolio/static/css/main.3062af6b.css",
+    "main.js": "/sanya-portfolio/static/js/main.cd9ced23.js",
+    "static/js/453.5af8c4a7.chunk.js": "/sanya-portfolio/static/js/453.5af8c4a7.chunk.js",
+    "index.html": "/sanya-portfolio/index.html",
+    "main.3062af6b.css.map": "/sanya-portfolio/static/css/main.3062af6b.css.map",
+    "main.cd9ced23.js.map": "/sanya-portfolio/static/js/main.cd9ced23.js.map",
+    "453.5af8c4a7.chunk.js.map": "/sanya-portfolio/static/js/453.5af8c4a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3062af6b.css",
+    "static/js/main.cd9ced23.js"
+  ]
+}
