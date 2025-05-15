@@ -8,9 +8,6 @@ Showcasing projects, skills, and experiences.
 - Material UI
 - Framer Motion
 
-## 🌐 Live Website
-https://sanyaphoso.github.io/sanya-portfolio
-
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
